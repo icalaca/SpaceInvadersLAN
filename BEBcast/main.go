@@ -10,10 +10,11 @@
 
 package BEBcast
 
-import "fmt"
+import (
+	"fmt"
 
-import PP2PLink "../PP2PLink"
-
+	PP2PLink "spaceInvaders/PP2PLink"
+)
 type BestEffortBroadcast_Req_Message struct {
 	Addresses []string
 	Message   interface{}

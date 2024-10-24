@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	BEBcast "../BEBcast"
-	"../Structs"
+	BEBcast "spaceInvaders/BEBcast"
+	"spaceInvaders/Structs"
 )
 
 var clientList = list.New()

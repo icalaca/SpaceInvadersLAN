@@ -17,9 +17,10 @@ import (
 	"sync"
 	"time"
 
-	"./BEBcast"
-	"./PP2PLink"
-	"./Structs"
+	"spaceInvaders/BEBcast"
+	"spaceInvaders/PP2PLink"
+	"spaceInvaders/Structs"
+	
 	"github.com/faiface/pixel"
 	"github.com/faiface/pixel/pixelgl"
 	"github.com/faiface/pixel/text"
